@@ -1,0 +1,29 @@
+body{
+    background: silver;
+    font: normal 15pt arial;
+}
+header{
+    text-align: center;
+}
+section{
+    background: rgb(134, 134, 250);
+    border-radius: 15px;
+    padding: 10px;
+    width: 450px;
+    margin: auto;
+    box-shadow: 5px 5px 5px gray;
+}
+div#info{
+    text-align:end;
+}
+div#calcular{
+    text-align: center;
+}
+div#resultado{
+    text-align: center;
+}
+footer{
+    font: normal 10pt;
+    font-style: italic;
+    text-align: center;
+}

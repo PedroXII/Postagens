@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon/Icons8-Windows-8-Science-Scale.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Teste de IMC</h1>
+    </header>
+    <section>
+        <div id = "info">
+            <p>Data de nascimento:
+                <input type="date" id = 'nasc'>
+                <br/>
+            Seu peso, em quilogramas:
+                <input type="number" id = 'peso'>
+                <br/>
+            Sua altura, em metros:
+                <input type="number" id='altura'>
+                <br/>
+            Sexo:
+                <input type="radio" id='masc' name = 'sex'>
+                <label id="mascu">Masculino</label>
+                <input type="radio" id = "fem" name = 'sex'>
+                <label id = "femi">Feminino</label>
+                <br/>
+            </p>
+        </div>
+        <div id = 'resultado'>
+            Preencha os dados acima, corretamente e clique em "calcular" para ver seu IMC.
+            <br/>
+            <br/>
+        </div>
+        <div id = 'calcular'>
+            <input type="button" value="calcular" onclick="calcular()">
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Feito por Pedro.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Para este projeto funcionar é necessário: 
+1 - Que se tenha o banco de dados MySQL instalado. 
+2 - criar um banco de dados com o nome de "cadastro". 
+3 - entrar no arquivo da conexão e inserir a senha nas aspas onde tem PASS = "".
